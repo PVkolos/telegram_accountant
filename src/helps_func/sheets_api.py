@@ -1,4 +1,3 @@
-import asyncio
 import os.path
 import datetime
 
@@ -444,7 +443,3 @@ async def analytic(spreadsheet_id):
         # await color(spreadsheet_id, 'Аналитика', 0.33, 0.65, 0.73, 1, 2, 1, len(body_values[1]) - 1)
         # await color(spreadsheet_id, 'Аналитика', 0.33, 0.65, 0.73, 2, len(my_ms) + 1, 0, 1)
     return 'ok'
-
-
-if __name__ == '__main__':
-    modification_width(0, 10, 150, "Записи бота", "1U-TVGrXlnpTGvbT3oLjRiSkSBKwiZ0Oa_tyelXCEANM")
